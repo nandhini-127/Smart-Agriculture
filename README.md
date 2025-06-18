@@ -147,11 +147,11 @@ Real-time smart farming dashboard
 
 Name	Responsibility
 
-Reena S	IoT hardware setup and sensor integration
-Deebeka M	Data collection, cleaning, and preprocessing
-Janani R	Machine Learning model development and testing
-Nandhini S S	Visualization, evaluation, and result interpretation
-Deepika G H	Report writing and presentation preparation
+1.Reena S-IoT hardware setup and sensor integration.
+2.Deebeka M-Data collection, cleaning, and preprocessing.
+3.Janani R-Machine Learning model development and testing.
+4.Nandhini S S-Visualization, evaluation, and result interpretation.
+5.Deepika G H-Report writing and presentation preparation.
 
 
 # References
