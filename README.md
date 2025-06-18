@@ -118,8 +118,11 @@ Prediction results can be used to automatically trigger irrigation via relay and
 Model	Accuracy (%)	Remarks
 
 Logistic Regression	~78%	Good baseline model
+
 Naive Bayes	~87%	Fast and simple, less interpretive
+
 Decision Tree	~98%	Highly interpretable, very accurate
+
 Linear Regression	- (uses MSE/R²)	Used for probabilistic prediction.
 
 # Visualizations Included
@@ -148,9 +151,13 @@ Real-time smart farming dashboard
 Name	Responsibility
 
 1.Reena S-IoT hardware setup and sensor integration.
+
 2.Deebeka M-Data collection, cleaning, and preprocessing.
+
 3.Janani R-Machine Learning model development and testing.
+
 4.Nandhini S S-Visualization, evaluation, and result interpretation.
+
 5.Deepika G H-Report writing and presentation preparation.
 
 
