@@ -1,8 +1,8 @@
- Smart Agriculture System using IoT and Machine Learning
+# Smart Agriculture System using IoT and Machine Learning
 
 This project implements a Smart Agriculture System that uses IoT sensors and Machine Learning models to intelligently predict whether irrigation is needed, based on real-time environmental data like temperature, humidity, soil moisture, and motion detection. The system aims to optimize water usage and promote sustainable farming practices.
 
- Key Features
+# Key Features
 
   Real-time data collection using IoT sensors
 
@@ -14,11 +14,11 @@ This project implements a Smart Agriculture System that uses IoT sensors and Mac
 
   Scalable and suitable for automation in smart farms
 
-Dataset Used
+# Dataset Used
 
 Filename: Smart_agriculture_dataset.xlsx
 
-Features:
+# Features:
 
 Temperature (°C)
 
@@ -29,18 +29,18 @@ SoilMoisture (scaled)
 Motion_Detected (0 or 1)
 
 
-Target:
+# Target:
 
 Irrigation_Needed (1 = Yes, 0 = No)
 
 Source: Simulated/collected sensor data representing agricultural field conditions.
 
 
-Technologies Used
+# Technologies Used
 
 Programming Language: Python
 
-Libraries:
+# Libraries:
 
 pandas, numpy – Data handling
 
@@ -49,7 +49,7 @@ matplotlib, seaborn – Visualization
 scikit-learn – ML models and evaluation metrics
 
 
-Hardware (for IoT implementation):
+# Hardware (for IoT implementation):
 
 NodeMCU / ESP8266
 
@@ -61,7 +61,7 @@ PIR Motion Sensor
 
 Relay Module + Water Pump
 
-Step-by-Step Process
+# Step-by-Step Process
 
 1. Data Collection
 
@@ -113,7 +113,7 @@ Data can be collected from physical sensors connected to NodeMCU
 Prediction results can be used to automatically trigger irrigation via relay and motor
 
 
-Model Evaluation Summary
+# Model Evaluation Summary
 
 Model	Accuracy (%)	Remarks
 
@@ -122,7 +122,7 @@ Naive Bayes	~87%	Fast and simple, less interpretive
 Decision Tree	~98%	Highly interpretable, very accurate
 Linear Regression	- (uses MSE/R²)	Used for probabilistic prediction.
 
- Visualizations Included
+# Visualizations Included
 
 ✅ Confusion Matrix Heatmaps
 
@@ -133,7 +133,7 @@ Linear Regression	- (uses MSE/R²)	Used for probabilistic prediction.
 📈 Actual vs Predicted Line Plot (Linear Regression)
 
 
- Applications
+# Applications
 
 Precision irrigation control
 
@@ -143,7 +143,7 @@ Smart greenhouse management
 
 Real-time smart farming dashboard
 
-Team Roles
+# Team Roles
 
 Name	Responsibility
 
@@ -154,7 +154,7 @@ Nandhini S S	Visualization, evaluation, and result interpretation
 Deepika G H	Report writing and presentation preparation
 
 
-References
+# References
 
 Scikit-learn Documentation
 
@@ -165,16 +165,13 @@ Scikit-learn Documentation
 Raspberry Pi IoT Projects
 
 
- How to Run the Project
+# How to Run the Project
 
 1. Clone or download the code and dataset.
 
-
 2. Ensure all required Python libraries are installed (pip install -r requirements.txt).
 
-
 3. Run the script (.py or Jupyter notebook).
-
 
 4. View the printed metrics and generated plots.
 
